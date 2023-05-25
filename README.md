@@ -10,9 +10,10 @@ A dark theme for Visual Studio Code, inspired by the classic [Rex Theme](https:/
 - Optimized for readability
 - Easy on the eyes
 
-## Screenshots
+## Theme
 
-![Rex Dark Theme Screenshot](./images/Screenshot.png)
+![Theme image](https://drive.google.com/uc?export=view&id=1e0O9saXQs8pINnBSJDU9jWQmmiUWReq1
+)
 
 ## Installation
 
@@ -22,11 +23,13 @@ A dark theme for Visual Studio Code, inspired by the classic [Rex Theme](https:/
 4. Click **Reload** to reload the Code window
 5. From the menu bar click: Code > Preferences > Color Theme > **Rex Dark Theme**
 
-## Screenshots
+## Theme
 
-![Rex Dark Theme Screenshot](./images/Screenshot-1.png)
+![Theme image](https://drive.google.com/uc?export=view&id=1gKXfUbUoB1-kMlHuMI4D9RTaT3ael1wa
+)
 
-![Rex Dark Theme Screenshot](./images/Screenshot-2.png)
+![Theme image](https://drive.google.com/uc?export=view&id=1Vqg-KOVOslslwp2qgs_YHdNjw55N57g5
+)
 
 ## Contributing
 
