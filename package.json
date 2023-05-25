@@ -1,8 +1,24 @@
 {
-  "name": "Rex-Dark-Theme",
-  "displayName": "Rex-Dark-Theme",
-  "description": "Rex Dark Theme",
+  "name": "rex-dark-theme",
+  "displayName": "Rex Dark Theme",
+  "description": "The Dark Theme",
   "version": "0.0.1",
+  "publisher": "FighterOP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SubhajitSK/Rex-Dark-Theme-VsCode.git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "color",
+    "dark theme",
+    "dark color theme",
+    "dark color",
+    "FighterOP Rex Dark Theme",
+    "Rex Dark Theme",
+    "rex dark theme"
+  ],
   "engines": {
     "vscode": "^1.78.0"
   },
