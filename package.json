@@ -1,0 +1,21 @@
+{
+  "name": "Rex-Dark-Theme",
+  "displayName": "Rex-Dark-Theme",
+  "description": "Rex Dark Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rex Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rex Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
