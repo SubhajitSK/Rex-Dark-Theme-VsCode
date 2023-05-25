@@ -28,14 +28,6 @@ Here is a preview of the Rex Dark Theme:
 ![Theme image](https://drive.google.com/uc?export=view&id=1e0O9saXQs8pINnBSJDU9jWQmmiUWReq1
 )
 
-## Installation
-
-1. Open **Extensions** sidebar panel in Visual Studio Code. `View → Extensions`
-2. Search for `Rex Dark Theme`
-3. Click **Install** to install it
-4. Click **Reload** to reload the Code window
-5. From the menu bar click: Code > Preferences > Color Theme > **Rex Dark Theme**
-
 ## Preview
 
 ![Theme image](https://drive.google.com/uc?export=view&id=1gKXfUbUoB1-kMlHuMI4D9RTaT3ael1wa
