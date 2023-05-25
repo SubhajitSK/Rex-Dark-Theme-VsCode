@@ -6,7 +6,7 @@
   "publisher": "FighterOP",
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#C80000",
+    "color": "#1f1f1f",
     "theme": "dark"
   },
   "repository": {
