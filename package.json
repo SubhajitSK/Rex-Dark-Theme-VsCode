@@ -2,7 +2,7 @@
   "name": "rex-dark-theme",
   "displayName": "Rex Dark Theme",
   "description": "The Dark Theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "FighterOP",
   "icon": "./images/icon.png",
   "repository": {
