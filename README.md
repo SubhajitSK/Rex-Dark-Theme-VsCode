@@ -1,5 +1,5 @@
 
-# Rex-Dark-Theme
+# Rex Dark Theme
 
 A dark theme for Visual Studio Code, inspired by the classic [Rex Theme](https://www.vim.org/scripts/script.php?script_id=155).
 
@@ -25,6 +25,8 @@ A dark theme for Visual Studio Code, inspired by the classic [Rex Theme](https:/
 ## Screenshots
 
 ![Rex Dark Theme Screenshot](./images/Screenshot-1.png)
+
+![Rex Dark Theme Screenshot](./images/Screenshot-2.png)
 
 ## Contributing
 
