@@ -4,7 +4,7 @@
   "description": "Elevate your coding environment with the visually appealing Rex Dark Theme",
   "version": "1.0.0",
   "publisher": "FighterOP",
-  "icon": "images/icon.png",
+  "icon": "icon/icon.png",
   "galleryBanner": {
     "color": "#1f1f1f",
     "theme": "dark"
