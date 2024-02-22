@@ -23,19 +23,19 @@
 
 ### Workspace Preview
 
-![Workspace Preview](https://drive.google.com/uc?export=view&id=1DpEv51M3Pu6uvL3ddWB_pG5-GVe2wfPO)
+![Workspace Preview](images/preview1.png)
 
 ### HTML Preview
 
-![HTML Preview](https://drive.google.com/uc?export=view&id=1JuAPxZcgJGBopuC5OhdmE76--D0ZrUqF)
+![HTML Preview](images/preview2.png)
 
 ### JSX Preview
 
-![JSX Preview](https://drive.google.com/uc?export=view&id=1zhnv1xKf4O6h_TbsFeoyKGUjQC48urD1)
+![JSX Preview](images/preview3.png)
 
 ### C++ Preview
 
-![C++ Preview](https://drive.google.com/uc?export=view&id=1ZKM6AcZFjpg801NWcxLNPSIPjT4MJLzk)
+![C++ Preview](images/preview4.png)
 
 ## Contributing
 
