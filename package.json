@@ -27,6 +27,8 @@
     "beautiful",
     "beautiful theme",
     "best dark theme",
+    "Midnight Eclipse",
+    "Moonlit Shadow",
     "colorful",
     "colorize",
     "colour theme",
@@ -56,9 +58,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rex Dark Theme",
+        "label": "Midnight Eclipse",
         "uiTheme": "vs-dark",
         "path": "./themes/Rex Dark Theme-color-theme.json"
+      },
+      {
+        "label": "Moonlit Shadow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rex Dark Light Theme-color-theme.json"
       }
     ]
   }
