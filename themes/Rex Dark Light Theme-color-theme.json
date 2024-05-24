@@ -8,17 +8,17 @@
     "scrollbar.shadow": "#000000b9",
     "activityBar.foreground": "#00b4fb",
     "activityBar.background": "#13151f",
-    "activityBar.inactiveForeground": "#d7d7d766",
+    "activityBar.inactiveForeground": "#d9d9d9",
     "activityBarBadge.foreground": "#ffffff",
     "activityBarBadge.background": "#2f3f80",
     "activityBar.border": "#40434f",
     "activityBar.activeBackground": "#13151f",
     "sideBar.background": "#13151f",
-    "sideBar.foreground": "#ededed",
+    "sideBar.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#1d2134",
     "sideBarSectionHeader.foreground": "#ffffff",
     "sideBarSectionHeader.border": "#ffffff33",
-    "sideBarTitle.foreground": "#00c3ff",
+    "sideBarTitle.foreground": "#00ffab",
     "sideBar.border": "#201b3f",
     "list.inactiveSelectionBackground": "#1b2034",
     "list.inactiveSelectionForeground": "#ffffff",
@@ -52,7 +52,7 @@
     "menubar.selectionForeground": "#ffffff",
     "menubar.selectionBackground": "#222945",
     "menu.foreground": "#ffffff",
-    "menu.background": "#16192b",
+    "menu.background": "#16192c",
     "menu.selectionForeground": "#ffffff",
     "menu.selectionBackground": "#10131d",
     "menu.selectionBorder": "#10131d",
@@ -74,8 +74,7 @@
     "textLink.foreground": "#00ffff",
     "editor.background": "#13151f",
     "editor.foreground": "#d3d3d3",
-    "editorLineNumber.foreground": "#717171",
-    "editorCursor.foreground": "#5f7dff",
+    "editorCursor.foreground": "#3258ff",
     "editorCursor.background": "#ffffff",
     "editor.selectionBackground": "#272b3d",
     "editor.inactiveSelectionBackground": "#3a3d41",
@@ -95,7 +94,8 @@
     "editor.wordHighlightBackground": "#575757b8",
     "editor.lineHighlightBackground": "#ffffff0a",
     "editor.lineHighlightBorder": "#22273d",
-    "editorLineNumber.activeForeground": "#ffffff",
+    "editorLineNumber.foreground": "#b3b3b3",
+    "editorLineNumber.activeForeground": "#ffff05",
     "editorLink.activeForeground": "#4e94ce",
     "editorIndentGuide.background": "#404040",
     "editorIndentGuide.activeBackground": "#707070",
@@ -135,14 +135,14 @@
     "terminalCursor.foreground": "#15ff00",
     "terminal.border": "#ffffff59",
     "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "#0011ff",
+    "terminal.ansiBlue": "#002fff",
     "terminal.ansiBrightBlack": "#ff6f00",
     "terminal.ansiBrightBlue": "#0fd301",
     "terminal.ansiBrightCyan": "#00ffe1",
     "terminal.ansiBrightGreen": "#00ff00",
     "terminal.ansiBrightMagenta": "#fff42a",
     "terminal.ansiBrightRed": "#ff4646",
-    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightYellow": "#317dff",
     "terminal.ansiCyan": "#00eeff",
     "terminal.ansiGreen": "#00DB00",
@@ -596,63 +596,64 @@
     },
     {
       "name": "js string",
-      "scope": "string.quoted.single.js,punctuation.definition.string.end.js,punctuation.definition.string.begin.js",
+      "scope": "string.quoted.single.js,punctuation.definition.string.end.js,punctuation.definition.string.begin.js,string.quoted.single.ts,string.quoted.single.tsx",
       "settings": {
         "foreground": "#21fd6b"
       }
     },
     {
       "name": "js Double qoute Content",
-      "scope": "string.quoted.double.js",
+      "scope": "string.quoted.double.js,string.quoted.double.ts,string.quoted.double.tsx",
       "settings": {
-        "foreground": "#b6b6b6"
+        // "foreground": "#67f743"
+        "foreground": "#bebebe"
       }
     },
     {
       "name": "key in object",
-      "scope": "meta.object-literal.key.js",
+      "scope": "meta.object-literal.key.js,meta.object-literal.key.ts,meta.object-literal.key.tsx",
       "settings": {
         "foreground": "#7cff54"
       }
     },
     {
       "name": "js Default keyword",
-      "scope": "keyword.control.default.js",
+      "scope": "keyword.control.default.js,keyword.control.default.ts,keyword.control.default.tsx",
       "settings": {
         "foreground": "#ff5a4b"
       }
     },
     {
       "name": "key in switch case",
-      "scope": "switch-block.expr.js",
+      "scope": "switch-block.expr.js,switch-block.expr.ts,switch-block.expr.tsx",
       "settings": {
         "foreground": "#ff5a4b"
       }
     },
     {
       "name": ", itrator in object",
-      "scope": "meta.object.member.js",
+      "scope": "meta.object.member.js,meta.object.member.ts,meta.object.member.tsx",
       "settings": {
         "foreground": "#E2E2E2EC"
       }
     },
     {
       "name": ", itrator in function parameter",
-      "scope": "punctuation.separator.parameter.js",
+      "scope": "punctuation.separator.parameter.js,punctuation.separator.parameter.ts,punctuation.separator.parameter.tsx",
       "settings": {
         "foreground": "#E2E2E2EC"
       }
     },
     {
       "name": ": itrator in switch case",
-      "scope": "punctuation.definition.section.case-statement.js",
+      "scope": "punctuation.definition.section.case-statement.js,punctuation.definition.section.case-statement.ts,punctuation.definition.section.case-statement.tsx",
       "settings": {
         "foreground": "#E2E2E2EC"
       }
     },
     {
       "name": "Async And Await KeyWord And NULL, undefined",
-      "scope": "storage.modifier.async.js,constant.language.null.js,constant.language.undefined.js",
+      "scope": "storage.modifier.async.js,constant.language.null.js,constant.language.undefined.js,storage.modifier.async.ts,constant.language.null.ts,constant.language.undefined.ts,storage.modifier.async.tsx,constant.language.null.tsx,constant.language.undefined.tsx",
       "settings": {
         "foreground": "#2493fa",
         "fontStyle": "bold"
@@ -660,77 +661,77 @@
     },
     {
       "name": "bool true in object",
-      "scope": "constant.language.boolean.true.js",
+      "scope": "constant.language.boolean.true.js,constant.language.boolean.true.ts,constant.language.boolean.true.tsx",
       "settings": {
         "foreground": "#46fc55"
       }
     },
     {
       "name": "bool false in object",
-      "scope": "constant.language.boolean.false.js",
+      "scope": "constant.language.boolean.false.js,constant.language.boolean.false.ts,constant.language.boolean.false.tsx",
       "settings": {
         "foreground": "#ee1f18"
       }
     },
     {
       "name": "module keyword in nodejs",
-      "scope": "support.type.object.module.js",
+      "scope": "support.type.object.module.js,support.type.object.module.ts,support.type.object.module.tsx",
       "settings": {
         "foreground": "#F39C12"
       }
     },
     {
       "name": "comma between array and object And ; Terminator",
-      "scope": "punctuation.terminator.statement.js,punctuation.separator.comma.js",
+      "scope": "punctuation.terminator.statement.js,punctuation.separator.comma.js,punctuation.terminator.statement.ts,punctuation.separator.comma.ts,punctuation.terminator.statement.tsx,punctuation.separator.comma.tsx",
       "settings": {
         "foreground": "#efefefec"
       }
     },
     {
       "name": "variable name",
-      "scope": "variable.other.readwrite.js,meta.definition.variable.js,meta.var-single-variable.expr.js",
+      "scope": "variable.other.readwrite.js,meta.definition.variable.js,meta.var-single-variable.expr.js,variable.other.readwrite.ts,meta.definition.variable.ts,meta.var-single-variable.expr.ts,variable.other.readwrite.tsx,meta.definition.variable.tsx,meta.var-single-variable.expr.tsx",
       "settings": {
         "foreground": "#ffffff"
       }
     },
     {
       "name": "Normal children",
-      "scope": "meta.jsx.children.js.jsx, meta.jsx.children.js",
+      "scope": "meta.jsx.children.js.jsx, meta.jsx.children.js, meta.jsx.children.tsx, meta.jsx.children.ts",
       "settings": {
         "foreground": "#ffffff"
       }
     },
     {
       "name": "this keyword in js",
-      "scope": "variable.language.this.js, variable.language.this.ts",
+      "scope": "variable.language.this.js, variable.language.this.ts, variable.language.this.tsx",
       "settings": {
         "foreground": "#f859b1"
       }
     },
     {
       "name": "extend class",
-      "scope": "entity.other.inherited-class.js",
+      "scope": "entity.other.inherited-class.js,entity.other.inherited-class.ts,entity.other.inherited-class.tsx",
       "settings": {
         "foreground": "#f859b1"
       }
     },
     {
       "name": "Buildin Class",
-      "scope": "support.class.builtin.js",
+      "scope": "support.class.builtin.js,support.class.builtin.ts,support.class.builtin.tsx",
       "settings": {
         "foreground": "#f859b1"
       }
     },
     {
       "name": "the name of import like import Vue",
-      "scope": "variable.other.readwrite.alias.js,meta.var.expr.js",
+      "scope": "variable.other.readwrite.alias.js,meta.var.expr.js,variable.other.readwrite.alias.ts,meta.var.expr.ts,variable.other.readwrite.alias.tsx,meta.var.expr.tsx",
       "settings": {
         "foreground": "#2493FA"
       }
     },
     {
       "name": "parameter of function And template string",
-      "scope": "variable.parameter.js",
+      "scope": "variable.parameter.js,variable.parameter.ts,variable.parameter.tsx",
       "settings": {
         "foreground": "#00ffd9",
         "fontStyle": "bold"
@@ -738,77 +739,77 @@
     },
     {
       "name": "template string",
-      "scope": "string.template.js,punctuation.definition.string.template.begin.js,punctuation.definition.string.template.end.js",
+      "scope": "string.template.js,punctuation.definition.string.template.begin.js,punctuation.definition.string.template.end.js,string.template.ts,punctuation.definition.string.template.begin.ts,punctuation.definition.string.template.end.ts,string.template.tsx,punctuation.definition.string.template.begin.tsx,punctuation.definition.string.template.end.tsx",
       "settings": {
         "foreground": "#21fd6b"
       }
     },
     {
       "name": "template of string ${}",
-      "scope": "meta.template.expression.js,punctuation.definition.template-expression.begin.js,",
+      "scope": "meta.template.expression.js,punctuation.definition.template-expression.begin.js,meta.template.expression.ts,punctuation.definition.template-expression.begin.ts,meta.template.expression.tsx,punctuation.definition.template-expression.begin.tsx,",
       "settings": {
         "foreground": "#21fd6b"
       }
     },
     {
       "name": "comment in js",
-      "scope": "comment.block.js. comment.line.double-slash.js",
+      "scope": "comment.block.js. comment.line.double-slash.js,comment.block.ts. comment.line.double-slash.ts,comment.block.tsx. comment.line.double-slash.tsx",
       "settings": {
         "fontStyle": "bold"
       }
     },
     {
       "name": "$ in template string",
-      "scope": "punctuation.definition.template-expression.begin.js,",
+      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.begin.tsx",
       "settings": {
         "foreground": "#21fd6b"
       }
     },
     {
       "name": "Import Style in js",
-      "scope": "keyword.control.import.js,meta.import.js, keyword.control.from.js",
+      "scope": "keyword.control.import.js,meta.import.js, keyword.control.from.js,keyword.control.import.ts,meta.import.ts, keyword.control.from.ts,keyword.control.import.tsx,meta.import.tsx, keyword.control.from.tsx",
       "settings": {
         "fontStyle": "bold"
       }
     },
     {
       "name": "} in template string",
-      "scope": "punctuation.definition.template-expression.end.js",
+      "scope": "punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.end.ts,punctuation.definition.template-expression.end.tsx",
       "settings": {
         "foreground": "#4d595f"
       }
     },
     {
       "name": "${ in template string",
-      "scope": "punctuation.definition.template-expression.begin.js",
+      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.begin.tsx",
       "settings": {
         "foreground": "#4d595f"
       }
     },
     {
       "name": "var in template string",
-      "scope": "meta.embedded.line.js",
+      "scope": "meta.embedded.line.js,meta.embedded.line.ts,meta.embedded.line.tsx",
       "settings": {
         "foreground": "#00ffd9"
       }
     },
     {
       "name": "call function like console.",
-      "scope": "meta.function-call.js,variable.other.object.js",
+      "scope": "meta.function-call.js,variable.other.object.js,meta.function-call.ts,variable.other.object.ts,meta.function-call.tsx,variable.other.object.tsx",
       "settings": {
         "foreground": "#00e5ff"
       }
     },
     {
       "name": "runner function like x.queryS()",
-      "scope": "entity.name.function.js,support.variable.property.js,variable.other.property.js",
+      "scope": "entity.name.function.js,support.variable.property.js,variable.other.property.js,entity.name.function.ts,support.variable.property.ts,variable.other.property.ts,entity.name.function.tsx,support.variable.property.tsx,variable.other.property.tsx",
       "settings": {
         "foreground": "#ffee00"
       }
     },
     {
       "name": "all kewword taht do'nt color",
-      "scope": "storage.type.js,storage.type.function.js,storage.type.class.js,storage.type.function.arrow.js,torage.modifier.js,meta.class.js",
+      "scope": "storage.type.js,storage.type.function.js,storage.type.class.js,storage.type.function.arrow.js,torage.modifier.js,meta.class.js,storage.type.ts,storage.type.function.ts,storage.type.class.ts,storage.type.function.arrow.ts,meta.class.ts,storage.type.tsx,storage.type.function.tsx,storage.type.class.tsx,storage.type.function.arrow.tsx,meta.class.tsx",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#c16aff"
@@ -816,14 +817,14 @@
     },
     {
       "name": "class name color",
-      "scope": "entity.name.type.class.js",
+      "scope": "entity.name.type.class.js,entity.name.type.class.ts,entity.name.type.class.tsx",
       "settings": {
         "foreground": "#f859b1"
       }
     },
     {
       "name": "const numberic",
-      "scope": "constant.numeric.decimal.js",
+      "scope": "constant.numeric.decimal.js,constant.numeric.decimal.ts,constant.numeric.decimal.tsx",
       "settings": {
         "foreground": "#F39C12"
       }
@@ -1238,246 +1239,6 @@
       "scope": "punctuation.accessor.mongodb",
       "settings": {
         "foreground": "#e6f0ee"
-      }
-    },
-    {
-      "name": "ts string",
-      "scope": "string.quoted.single.ts,punctuation.definition.string.end.ts,punctuation.definition.string.begin.ts",
-      "settings": {
-        "foreground": "#21fd6b"
-      }
-    },
-    {
-      "name": "ts Double qoute Content",
-      "scope": "string.quoted.double.ts",
-      "settings": {
-        "foreground": "#b6b6b6"
-      }
-    },
-    {
-      "name": "key in object",
-      "scope": "meta.object-literal.key.ts",
-      "settings": {
-        "foreground": "#f15a4c"
-      }
-    },
-    {
-      "name": "ts Default keyword",
-      "scope": "keyword.control.default.ts",
-      "settings": {
-        "foreground": "#f15a4c"
-      }
-    },
-    {
-      "name": "key in switch case",
-      "scope": "switch-block.expr.ts",
-      "settings": {
-        "foreground": "#f15a4c"
-      }
-    },
-    {
-      "name": ", itrator in object",
-      "scope": "meta.object.member.ts",
-      "settings": {
-        "foreground": "#E2E2E2EC"
-      }
-    },
-    {
-      "name": ", itrator in function parameter",
-      "scope": "punctuation.separator.parameter.ts",
-      "settings": {
-        "foreground": "#E2E2E2EC"
-      }
-    },
-    {
-      "name": ": itrator in switch case",
-      "scope": "punctuation.definition.section.case-statement.ts",
-      "settings": {
-        "foreground": "#E2E2E2EC"
-      }
-    },
-    {
-      "name": "Async And Await KeyWord And NULL, undefined",
-      "scope": "constant.language.undefined.ts,storage.modifier.async.ts,constant.language.null.ts,constant.language.undefined.ts",
-      "settings": {
-        "foreground": "#2493fa"
-      }
-    },
-    {
-      "name": "bool true in object",
-      "scope": "constant.language.boolean.true.ts",
-      "settings": {
-        "foreground": "#46fc55"
-      }
-    },
-    {
-      "name": "bool false in object",
-      "scope": "constant.language.boolean.false.ts",
-      "settings": {
-        "foreground": "#ee1f18"
-      }
-    },
-    {
-      "name": "module keyword in nodets",
-      "scope": "support.type.object.module.ts",
-      "settings": {
-        "foreground": "#F39C12"
-      }
-    },
-    {
-      "name": "comma between array and object And ; Terminator",
-      "scope": "punctuation.separator.parameter.ts,punctuation.terminator.statement.ts,punctuation.separator.comma.ts",
-      "settings": {
-        "foreground": "#aaa8a8ec"
-      }
-    },
-    {
-      "name": "variable name",
-      "scope": "variable.other.readwrite.ts,meta.definition.variable.ts,meta.var-single-variable.expr.ts",
-      "settings": {
-        "foreground": "#00ffd9"
-      }
-    },
-    {
-      "name": "this keyword in ts",
-      "scope": "variable.language.this.ts, variable.language.this.ts",
-      "settings": {
-        "foreground": "#f859b1"
-      }
-    },
-    {
-      "name": "extend class",
-      "scope": "entity.other.inherited-class.ts",
-      "settings": {
-        "foreground": "#f859b1"
-      }
-    },
-    {
-      "name": "Buildin Class",
-      "scope": "support.class.builtin.ts",
-      "settings": {
-        "foreground": "#f859b1"
-      }
-    },
-    {
-      "name": "the name of import like import Vue",
-      "scope": "variable.other.readwrite.alias.ts,meta.var.expr.ts",
-      "settings": {
-        "foreground": "#FED604",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "parameter of function And template string",
-      "scope": "variable.parameter.ts",
-      "settings": {
-        "foreground": "#00ffd9"
-      }
-    },
-    {
-      "name": "template string",
-      "scope": "string.template.ts,punctuation.definition.string.template.begin.ts,punctuation.definition.string.template.end.ts",
-      "settings": {
-        "foreground": "#21fd6b"
-      }
-    },
-    {
-      "name": "template of string ${}",
-      "scope": "meta.template.expression.ts,punctuation.definition.template-expression.begin.ts,",
-      "settings": {
-        "foreground": "#21fd6b"
-      }
-    },
-    {
-      "name": "comment in ts",
-      "scope": "comment.block.ts. comment.line.double-slash.ts",
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "$ in template string",
-      "scope": "punctuation.definition.template-expression.begin.ts,",
-      "settings": {
-        "foreground": "#21fd6b"
-      }
-    },
-    {
-      "name": "Import Style in ts",
-      "scope": "keyword.control.import.ts,meta.import.ts, keyword.control.from.ts",
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "} in template string",
-      "scope": "punctuation.definition.template-expression.end.ts",
-      "settings": {
-        "foreground": "#4d595f"
-      }
-    },
-    {
-      "name": "${ in template string",
-      "scope": "punctuation.definition.template-expression.begin.ts",
-      "settings": {
-        "foreground": "#4d595f"
-      }
-    },
-    {
-      "name": "var in template string",
-      "scope": "meta.embedded.line.ts",
-      "settings": {
-        "foreground": "#00ffd9"
-      }
-    },
-    {
-      "name": "call function like console.",
-      "scope": "meta.function-call.ts,variable.other.object.ts",
-      "settings": {
-        "foreground": "#F39C12",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "runner function like x.queryS(), key in interface & enum key",
-      "scope": "variable.other.enummember.ts,variable.object.property.ts,entity.name.function.ts,support.variable.property.ts,variable.other.property.ts",
-      "settings": {
-        "foreground": "#FED604"
-      }
-    },
-    {
-      "name": "all kewword taht do'nt color and <> punctuation in ts",
-      "scope": "punctuation.definition.typeparameters.end.ts, punctuation.definition.typeparameters.begin.ts, storage.modifier.ts, storage.type.ts,storage.type.function.ts,storage.type.class.ts,storage.type.function.arrow.ts,torage.modifier.ts,meta.class.ts, storage.type.interface.ts",
-      "settings": {
-        "foreground": "#b267e6"
-      }
-    },
-    {
-      "name": "class name color ts and enum name",
-      "scope": "entity.name.type.enum.ts,entity.name.type.class.ts, entity.name.type.interface.ts",
-      "settings": {
-        "foreground": "#f859b1"
-      }
-    },
-    {
-      "name": "const numberic ts",
-      "scope": "constant.numeric.decimal.ts",
-      "settings": {
-        "foreground": "#F39C12"
-      }
-    },
-    {
-      "name": "type declare and builtin & enum",
-      "scope": "storage.type.enum.ts, entity.name.type.ts,support.type.primitive.ts, support.type.builtin.ts,entity.name.type.ts",
-      "settings": {
-        "foreground": "#f15a4c"
-      }
-    },
-    {
-      "name": "</> in ts",
-      "scope": "punctuation.definition.tag.directive.ts, ",
-      "settings": {
-        "foreground": "#0587c4"
       }
     },
     {
