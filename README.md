@@ -19,29 +19,49 @@
 4. Once the installation is complete, click on the **`Reload`** button to reload the Code window.
 5. To apply the theme, go to the menu bar, click on **`Code`**, select **`Preferences`**, choose **`Color Theme`**, and finally, select **`Rex Dark Theme`**.
 
-## Moonlit Shadow Preview
+## Workspace Preview
 
-### Workspace Preview
-
-![Workspace Preview](images/preview5.png)
-
-## Midnight Eclipse Preview
-
-### Workspace Preview
-
-![Workspace Preview](images/preview1.png)
+![Workspace Preview](images/theme.png)
 
 ### HTML Preview
 
-![HTML Preview](images/preview2.png)
+![HTML Preview](images/html.png)
+
+### CSS Preview
+
+![CSS Preview](images/css.png)
+
+### JavaScript Preview
+
+![JavaScript Preview](images/js.png)
+
+### TypeScript Preview
+
+![TypeScript Preview](images/ts.png)
 
 ### JSX Preview
 
-![JSX Preview](images/preview3.png)
+![JSX Preview](images/jsx.png)
+
+### TSX Preview
+
+![TSX Preview](images/tsx.png)
 
 ### C++ Preview
 
-![C++ Preview](images/preview4.png)
+![C++ Preview](images/cpp.png)
+
+### Python Preview
+
+![Python Preview](images/python.png)
+
+### Markdown Preview
+
+![Markdown Preview](images/md.png)
+
+### PHP Preview
+
+![PHP Preview](images/php.png)
 
 ## Contributing
 

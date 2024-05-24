@@ -58,14 +58,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Moonlit Shadow",
+        "label": "Rex Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Rex Dark Light Theme-color-theme.json"
-      },
-      {
-        "label": "Midnight Eclipse",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Rex Dark Theme-color-theme.json"
       }
     ]
   }
