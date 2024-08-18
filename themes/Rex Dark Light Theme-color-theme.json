@@ -158,12 +158,12 @@
     "editorGroupHeader.tabsBorder": "#221d54",
     "tab.border": "#ffffff12",
     "tab.activeBorder": "#ffffff00",
-    "tab.activeBackground": "#12141f",
+    "tab.activeBackground": "#0b0c13",
     "tab.activeForeground": "#ffffff",
     "tab.activeBorderTop": "#ffffff00",
     "tab.inactiveBackground": "#161b28",
     "tab.inactiveForeground": "#ffffffce",
-    "tab.hoverBackground": "#13151f",
+    "tab.hoverBackground": "#10111a",
     "tab.hoverForeground": "#ffffff",
     "tab.hoverBorder": "#ffffff00",
     "scrollbarSlider.background": "#25293d",
@@ -592,6 +592,44 @@
       "scope": "source.ignore",
       "settings": {
         "foreground": "#F39C12"
+      }
+    },
+    {
+      "name": "Interface Types",
+      "scope": [
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx",
+        "storage.type.interface.js",
+        "storage.type.interface.jsx"
+      ],
+      "settings": {
+        "foreground": "#f859b1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Object Properties",
+      "scope": [
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "variable.object.property.js",
+        "variable.object.property.jsx"
+      ],
+      "settings": {
+        "foreground": "#21fd6b"
+      }
+    },
+    {
+      "name": "Primitive Types",
+      "scope": [
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx",
+        "support.type.primitive.js",
+        "support.type.primitive.jsx"
+      ],
+      "settings": {
+        "foreground": "#21fd6b",
+        "fontStyle": "bold"
       }
     },
     {
@@ -1577,6 +1615,209 @@
       "scope": "storage.type.built-in.primitive.cpp",
       "settings": {
         "foreground": "#c16aff"
+      }
+    },
+    // C#
+    {
+      "name": "c# string",
+      "scope": "string.quoted.single.cs,string.quoted.double.cs,punctuation.definition.string.end.cs,punctuation.definition.string.begin.cs",
+      "settings": {
+        "foreground": "#21fd6b"
+      }
+    },
+    {
+      "name": "c# Default keyword",
+      "scope": "keyword.control.default.cs",
+      "settings": {
+        "foreground": "#ff5a4b"
+      }
+    },
+    {
+      "name": "key in object",
+      "scope": "meta.object-literal.key.cs",
+      "settings": {
+        "foreground": "#7cff54"
+      }
+    },
+    {
+      "name": "iterator in object",
+      "scope": "meta.object.member.cs",
+      "settings": {
+        "foreground": "#E2E2E2EC"
+      }
+    },
+    {
+      "name": "iterator in function parameter",
+      "scope": "punctuation.separator.parameter.cs",
+      "settings": {
+        "foreground": "#E2E2E2EC"
+      }
+    },
+    {
+      "name": "c# bool true",
+      "scope": "constant.language.boolean.true.cs",
+      "settings": {
+        "foreground": "#46fc55"
+      }
+    },
+    {
+      "name": "c# bool false",
+      "scope": "constant.language.boolean.false.cs",
+      "settings": {
+        "foreground": "#ee1f18"
+      }
+    },
+    {
+      "name": "c# module keyword",
+      "scope": "support.type.object.module.cs",
+      "settings": {
+        "foreground": "#F39C12"
+      }
+    },
+    {
+      "name": "comma and semicolon in c#",
+      "scope": "punctuation.terminator.statement.cs,punctuation.separator.comma.cs",
+      "settings": {
+        "foreground": "#efefefec"
+      }
+    },
+    {
+      "name": "c# variable name",
+      "scope": "variable.other.readwrite.cs,meta.definition.variable.cs,meta.var-single-variable.expr.cs",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "c# normal children",
+      "scope": "meta.children.cs",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "this keyword in c#",
+      "scope": "variable.language.this.cs",
+      "settings": {
+        "foreground": "#f859b1"
+      }
+    },
+    {
+      "name": "extend class in c#",
+      "scope": "entity.other.inherited-class.cs",
+      "settings": {
+        "foreground": "#f859b1"
+      }
+    },
+    {
+      "name": "c# builtin class",
+      "scope": "support.class.builtin.cs",
+      "settings": {
+        "foreground": "#f859b1"
+      }
+    },
+    {
+      "name": "c# parameter in function",
+      "scope": "variable.parameter.cs",
+      "settings": {
+        "foreground": "#00ffd9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "template string in c#",
+      "scope": "string.template.cs,punctuation.definition.string.template.begin.cs,punctuation.definition.string.template.end.cs",
+      "settings": {
+        "foreground": "#21fd6b"
+      }
+    },
+    {
+      "name": "template expression in c#",
+      "scope": "meta.template.expression.cs,punctuation.definition.template-expression.begin.cs,punctuation.definition.template-expression.end.cs",
+      "settings": {
+        "foreground": "#21fd6b"
+      }
+    },
+    {
+      "name": "comment in c#",
+      "scope": "comment.block.cs,comment.line.double-slash.cs",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "call function like Console in c#",
+      "scope": "meta.function-call.cs,variable.other.object.cs",
+      "settings": {
+        "foreground": "#00e5ff"
+      }
+    },
+    {
+      "name": "runner function in c#",
+      "scope": "entity.name.function.cs,support.variable.property.cs,variable.other.property.cs",
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "name": "keywords that don't color",
+      "scope": "storage.type.cs,storage.type.function.cs,storage.type.class.cs,storage.type.function.arrow.cs,meta.class.cs",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#c16aff"
+      }
+    },
+    {
+      "name": "class name color in c#",
+      "scope": "entity.name.type.class.cs",
+      "settings": {
+        "foreground": "#f859b1"
+      }
+    },
+    {
+      "name": "constant numeric in c#",
+      "scope": "constant.numeric.decimal.cs",
+      "settings": {
+        "foreground": "#F39C12"
+      }
+    },
+    {
+      "name": "private keyword in c#",
+      "scope": "entity.name.variable.field.cs",
+      "settings": {
+        "foreground": "#c16aff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "readonly keyword in c#",
+      "scope": "entity.name.type.cs",
+      "settings": {
+        "foreground": "#c16aff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "IMongoCollection and User class in c#",
+      "scope": "estorage.modifier.private.cs,storage.modifier.public.cs,storage.modifier.protected.cs,storage.modifier.internal.cs,storage.modifier.protected-internal.cs,storage.modifier.private-protected.cs",
+      "settings": {
+        "foreground": "#f859b1"
+      }
+    },
+    {
+      "name": "variable name async",
+      "scope": "storage.modifier.async.cs",
+      "settings": {
+        "foreground": "#2493fa",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "variable name namespace",
+      "scope": "entity.name.type.namespace.cs",
+      "settings": {
+        "foreground": "#d5d800",
+        "fontStyle": "bold"
       }
     }
   ]
