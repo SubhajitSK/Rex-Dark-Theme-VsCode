@@ -1,7 +1,7 @@
 {
   "name": "rex-dark-theme",
-  "displayName": "Rex Dark Theme",
-  "description": "Elevate your coding environment with the visually appealing Rex Dark Theme",
+  "displayName": "Rex Dark Themes",
+  "description": "A polished VS Code theme pack with Rex Dark Aura and Rex Dark Pulse.",
   "version": "4.1.0",
   "publisher": "FighterOP",
   "icon": "icon/icon.png",
@@ -58,9 +58,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rex Dark Theme",
+        "label": "Rex Dark Aura",
         "uiTheme": "vs-dark",
-        "path": "./themes/Rex Dark Light Theme-color-theme.json"
+        "path": "./themes/rex-dark-aura.json"
+      },
+      {
+        "label": "Rex Dark Pulse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rex-dark-pulse.json"
       }
     ]
   }
